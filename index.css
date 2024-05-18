@@ -23,7 +23,7 @@ a {
 
 h1 {
   font-weight: 300;
-  font-size: 2.5em; /* Default size for larger screens */
+  font-size: 3em; /* Default size for larger screens */
   margin-top: 0;
   padding: 0 10px; /* Adds padding to ensure text doesn't touch the edges */
 }
@@ -31,14 +31,14 @@ h1 {
 /* Responsive settings for screens narrower than 600px */
 @media (max-width: 600px) {
   h1 {
-    font-size: 1.2em; /* Further reduced size for mobile devices */
+    font-size: 2em; /* Further reduced size for mobile devices */
   }
 }
 
 /* Responsive settings for even smaller screens */
 @media (max-width: 400px) {
   h1 {
-    font-size: 1em; /* Further reduction for smaller devices */
+    font-size: 1.5em; /* Further reduction for smaller devices */
   }
 }
 
