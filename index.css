@@ -3,9 +3,7 @@ body, .wrapper {
   padding: 0;
   width: 100%;
   height: 100%;
-
   font-family: Lato;
-
   transition: 0.3s ease-in-out;
 }
 
@@ -13,7 +11,6 @@ body, .wrapper {
   width: 100%;
   height: 100%;
   min-height: 100vh;
-  
   text-align: center;
   display: flex;
   justify-content: center;
@@ -26,25 +23,30 @@ a {
 
 h1 {
   font-weight: 300;
-  font-size: 2.5em;
-
+  font-size: 2.5em; /* Default size for larger screens */
   margin-top: 0;
   padding-top: 0;
 }
 
 h2 {
   font-weight: 300;
-  font-size: 2em;
-
+  font-size: 2em; /* Default size for larger screens */
   padding-top: 5px;
   padding-bottom: 5px;
-
   margin-top: 0;
   margin-bottom: 0;
-
   transition: 0.3s ease-in-out;
 }
 
+/* Responsive settings for screens narrower than 600px */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em; /* Smaller size for mobile devices */
+  }
+  h2 {
+    font-size: 1.5em; /* Smaller size for mobile devices */
+  }
+}
 
 .instagram {
   color: #962fbf;
@@ -54,7 +56,6 @@ h2 {
   color: #0cda3c;
 }
 
-
 .linkedin {
   color: #0077B5;
 }
@@ -62,7 +63,3 @@ h2 {
 .soundcloud {
   color: #FF7700;
 }
-
-
-
-
