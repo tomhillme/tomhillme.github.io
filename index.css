@@ -28,19 +28,7 @@ h1 {
 /*  padding: 0 10px; /* Adds padding to ensure text doesn't touch the edges */
 }
 
-/* Responsive settings for screens narrower than 600px */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2em; /* Further reduced size for mobile devices */
-  }
-}
 
-/* Responsive settings for even smaller screens */
-@media (max-width: 400px) {
-  h1 {
-    font-size: 1.5em; /* Further reduction for smaller devices */
-  }
-}
 
 
 
