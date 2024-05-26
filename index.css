@@ -23,7 +23,7 @@ a {
 
 h1 {
   font-weight: 300;
-  font-size: 3.5em; /* Default size for larger screens */
+  font-size: 5em; /* Default size for larger screens */
   margin-top: 0;
 /*  padding: 0 10px; /* Adds padding to ensure text doesn't touch the edges */
 }
@@ -34,7 +34,7 @@ h1 {
 
 h2 {
   font-weight: 300;
-  font-size: 2em; /* Default size for larger screens */
+  font-size: 3em; /* Default size for larger screens */
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 0;
@@ -42,15 +42,7 @@ h2 {
   transition: 0.3s ease-in-out;
 }
 
-/* Responsive settings for screens narrower than 600px */
-@media (max-width: 600px) {
-  h1 {
-    font-size: 2em; /* Smaller size for mobile devices */
-  }
-  h2 {
-    font-size: 1.5em; /* Smaller size for mobile devices */
-  }
-}
+
 
 .instagram {
   color: #962fbf;
